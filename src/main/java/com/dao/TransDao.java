@@ -29,8 +29,8 @@ public class TransDao {
 		if(this.conn == null||conn.isClosed()){
 			
 				Class.forName("com.mysql.jdbc.Driver");//鎸囧畾杩炴帴绫诲瀷  
-				conn = DriverManager.getConnection("jdbc:mysql://101.200.56.27/googleTranslator", "root", "qrkcgya520");//鑾峰彇杩炴帴
-			
+				conn = DriverManager.getConnection("jdbc:mysql://ip/dbname", "dbuser", "dbpasswd");//鑾峰彇杩炴帴
+			 
 		}
 		} catch (Exception e) {
 			e.printStackTrace();
